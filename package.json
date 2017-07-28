@@ -1,0 +1,19 @@
+{
+  "name": "loadwithclusters",
+  "version": "1.0.0",
+  "description": "using clusters",
+  "main": "usingCluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infantjoseph/LoadWithCluster.git"
+  },
+  "author": "Joseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infantjoseph/LoadWithCluster/issues"
+  },
+  "homepage": "https://github.com/infantjoseph/LoadWithCluster#readme"
+}
