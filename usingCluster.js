@@ -18,6 +18,7 @@ if (cluster.isMaster) {
   });
 } else {
     var app = express();
+    port = process.env.PORT || 3000;
   // Workers can share any TCP connection
   // In this case it is an HTTP server
   app.get('/', function (req, res) {
@@ -28,7 +29,7 @@ if (cluster.isMaster) {
         var numChars = Math.round(5000 + (Math.random() * 5000));
         var randChars = crypto.randomBytes(numChars).toString('hex');
         res.send(randChars);
-    }).listen(8000);
-
+    });
+  app.listen(port);
   console.log(`Worker ${process.pid} started`);
 }
