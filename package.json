@@ -4,7 +4,8 @@
   "description": "using clusters",
   "main": "usingCluster.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node usingCluster.js"
   },
   "repository": {
     "type": "git",
